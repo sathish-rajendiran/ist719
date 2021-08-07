@@ -1,0 +1,34 @@
+---
+title: "Week 1: Async"
+author: "Sathish Kumar Rajendiran"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+Attribution statement: 
+1. I did this homework by myself, with help from the book and the professor. 
+
+
+```{r}
+# getting started
+x <- 4 
+pie(c(1,2))
+?pie()
+#aspect ratio  height to width
+x <- 4 
+fname <- "/Users/sathishrajendiran/Documents/Sathish/Others/Masters/Syracuse/Courses-Term5/IST719/Week1/lab.pdf"
+
+
+```
+
+```{r}
+?pie()
+
+#aspect ratio  height to width
+pdf(file = fname,width = 4,height = 4)
+pie(c(1,2,3))
+# dev.off()
+
+
+```
